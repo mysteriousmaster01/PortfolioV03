@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.2.0",
+    "@vercel/speed-insights": "^1.0.10",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "framer-motion": "^10.6.0",
     "next": "13.5.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "vercel": "^33.5.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.17",
