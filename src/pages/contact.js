@@ -34,24 +34,11 @@ const ContactForm = () => {
         }
       );
   };
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
 
   return (
     <>
       <Head>
-        <title>Jay Prajapati | Contact Page</title>
+        <title>{`Jay Prajapati | Contact Page`}</title>
         <meta name="description" content="any description" />
       </Head>
       <TransitionEffect />
@@ -114,12 +101,12 @@ const ContactForm = () => {
                       <div className="w-full flex items-center justify-center pt-5">
                         {success && (
                           <span className="text-green-600 font-semibold">
-                            Your Message Has Been Sent Successfully!
+                            {`Your Message Has Been Sent Successfully!`}
                           </span>
                         )}
                         {error && (
                           <span className="text-red-600 font-semibold">
-                            Something Went Wrong!
+                            {`Something Went Wrong!`}
                           </span>
                         )}
                       </div>

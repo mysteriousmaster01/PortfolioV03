@@ -39,7 +39,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>Jay Prajapati | About Page</title>
+        <title>{`Jay Prajapati | About `}</title>
         <meta name="description" content="any description" />
       </Head>
       <TransitionEffect />
@@ -93,7 +93,7 @@ const About = () => {
                   <AnimatedNumbers value={10} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize  text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Satisfied Clients
+                  {`Satisfied Clients`}
                 </h2>
               </div>
 
@@ -102,7 +102,7 @@ const About = () => {
                   <AnimatedNumbers value={4} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize  text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Completed Projects
+                  {`Completed Projects`}
                 </h2>
               </div>
 
@@ -111,7 +111,7 @@ const About = () => {
                   <AnimatedNumbers value={1} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize  text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Years of Experience
+                  {`Years of Experience`}
                 </h2>
               </div>
             </div>
