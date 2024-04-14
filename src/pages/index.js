@@ -28,7 +28,7 @@ export default function Home() {
 Explore my latest projects and articles, showcasing my expertise in React.js and web development.`}
               </p>
               <div className="flex items-center self-start mt-2 2xl:self-center">
-                <Link href="/" target="_blank" className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:dark:border-light" download={true}>Resume</Link>
+                <Link href="https://drive.google.com/file/d/1uniIHLOiAi4sbsto8fd0YsMrxWD3-NQ2/view?usp=sharing" target="_blank" className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:dark:border-light" download={true}>Resume</Link>
 
                 <Link href="/contact" className="ml-4 text-lg font-medium capitalize flex items-center bg-light text-dark p-2.5 px-6 rounded-lg border-2 border-solid border-dark dark:text-light dark:bg-dark dark:border-light">Contact</Link>
               </div>
